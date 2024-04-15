@@ -1,7 +1,5 @@
 # Dave's Super Tight Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 I made this and I think it's pretty slick.
 
 ## How it works
