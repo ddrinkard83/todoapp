@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.ToDoContainer {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  background-color: #1F2833;
+  border-radius: 15px;
+
+}
+
+.InputBar {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.TaskInput {
+  margin-top: 10px;
+  background-color: #1F2833;
+  width: 300px;
+  color: #C5C6C7;
+  height: 30px;
+  border: 0px;
+  border-bottom: 1px solid #C5C6C7;
+  font-style: italic;
+}
+
+.TaskInput:focus {
+  background-color: #C5C6C7;
+  border-bottom: 1px solid #66FCF1;
+  color: #0B0C10;
+  border: 0px;
+  border-radius: 0px;
+  font-style: normal;
+}
+
+.SubmitButton {
+  background-color: #1F2833;
+  margin: 0px 15px;
+  color: #C5C6C7;
+  width: 100px;
+  border: 1px solid #66FCF1;
+  height: 34px;
+  text-transform: uppercase;
+  border-radius: 5px 5px 5px 5px;
+}
+
+
+.TaskBlock {
+  display:block;
+  background-color: #1F2833;
+  height: 50px;
+  margin: 5px 10px;
+  border-radius: 5px 5px;
+  border: 1px solid #45A29E;
+  padding: 15px;
+  
+}
+
+.TaskWrapper {
+  height: 750px;
+  width: 100%;
+  position:relative;
+  overflow:auto;
+  scrollbar-width: thin;
+}
+
+button {
+  float: right;
+  background-color: #45A29E;
+  margin: 0px 1px;
+  color: #1F2833;
+  width: 75px;
+  border: 0px;
+}
+
+
+.TaskBlock h2 {
+  display: block;
+  color: #66FCF1;
+  margin: 0px;
+}
+
+.Completed {
+  text-decoration: line-through;
+  opacity: 50%;
+}
